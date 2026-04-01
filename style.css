@@ -37,16 +37,21 @@ footer p {
   font-size: .8rem;
 }
 
-img {
-  width: 100%;
-  height: auto;
+h2{
+text-align: center;
+padding-top: 0.5rem;
 }
 
-main {
+img {
+width: 100%;
+height: auto;
+}
+
+.insect {
   display: grid;
-  grid-template-columns: repeat(2, 250px);
-  grid-auto-rows: 350px;
-  gap: 15px;
+   grid-template-columns: repeat(2, 250px);
+  grid-auto-rows: 450px;
+  gap: 15px 20px;
   margin: 44px 0;
   justify-content: center;
 }
@@ -65,3 +70,31 @@ main {
   bottom: 5px;
 }
 
+.summary{
+  font-size: 0.7rem;
+  padding: 0.8rem;
+}
+
+.cockroach{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.butterfly{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.wasp{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.spider{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.locust{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.pray-mantis{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
