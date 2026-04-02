@@ -19,15 +19,16 @@ header, footer{
   text-align: center;
   min-width: 500px;
   height: 50px;
-  padding: 15px 0 30px 0;
-  background-color: #025159;
+  padding: 1.8rem;
+  background-color: #1F361F
+;
   color: #FFFFFF;
 }
 
 .navLogo {
-  font-size: 2.9rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  padding: 10px;
+  padding: 1.5rem;
   font-family: trilby, serif;
   font-weight: 900;
   font-style: normal;
@@ -35,11 +36,14 @@ header, footer{
 
 footer p {
   font-size: .8rem;
+  font-style: italic;
 }
 
 h2{
 text-align: center;
 padding-top: 0.5rem;
+text-decoration: underline;
+font-weight: 700;
 }
 
 img {
@@ -49,11 +53,11 @@ height: auto;
 
 .insect {
   display: grid;
-   grid-template-columns: repeat(2, 250px);
-  grid-auto-rows: 450px;
-  gap: 15px 20px;
-  margin: 44px 0;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(250px, auto);
+  gap: 1.5rem;
   justify-content: center;
+  padding: 2rem;
 }
 
 .hint {
@@ -76,25 +80,32 @@ height: auto;
 }
 
 .cockroach{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+    background-color: #F5D5D5;
 }
 
 .butterfly{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+    background-color: #E2F5D5;
 }
 
 .wasp{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+    background-color: #F5F2D5;
 }
 
 .spider{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+    background-color: #D5E0F5;
 }
 
 .locust{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+    background-color: #FAE9CD;
+
 }
 
 .pray-mantis{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  background-color:#E0D5F5;
 }
