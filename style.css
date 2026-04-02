@@ -4,7 +4,7 @@
 }
 
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   color: black;
   font-size: 14px;
 }
@@ -86,7 +86,7 @@ height: auto;
 
 .butterfly{
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
-    background-color: #E2F5D5;
+    background-color: #E2F5D5
 }
 
 .wasp{
@@ -106,6 +106,6 @@ height: auto;
 }
 
 .pray-mantis{
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
   background-color:#E0D5F5;
 }
