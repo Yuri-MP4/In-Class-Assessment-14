@@ -35,15 +35,16 @@ header, footer{
 }
 
 footer p {
-  font-size: .8rem;
+  font-size: 0.9rem;
   font-style: italic;
 }
 
 h2{
-text-align: center;
+padding-left: 1rem;
 padding-top: 0.5rem;
 text-decoration: underline;
 font-weight: 700;
+font-size: 1.8rem;
 }
 
 img {
@@ -75,7 +76,7 @@ height: auto;
 }
 
 .summary{
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   padding: 0.8rem;
 }
 
